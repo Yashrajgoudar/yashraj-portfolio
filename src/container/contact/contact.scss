@@ -1,0 +1,137 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/bgWhite.png');
+    background-size: cover;
+    background-repeat: repeat;
+    hr{
+        width: 103%;
+        height: 100%;
+        background-color: red;
+    }
+    .container{
+        h1{
+            text-align: center;
+            font-size: 38px;
+            margin: 20px 0px;
+            span{
+                color: rgb(181, 37, 37);
+            }
+
+        }
+        .mp{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            div{
+                width: 250px;
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                background-color: rgb(254, 217, 217);
+                border-radius: 12px;
+                font-size: 17px;
+                img{
+                    margin-right: 15px;
+                }
+            }
+            @media screen and (max-width:500px) {
+                div{
+                    margin: 10px 0px;
+                }
+            }
+        }
+        p{
+            color: rgb(94, 92, 92);
+            // margin: 20px 0px;
+            margin-left: 5px;
+            padding: 25px;
+        }
+        .messageme{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                width: 80vw;
+                padding: 15px;
+                background-color: rgb(254, 217, 217);
+                border-radius: 8px;
+                margin: 10px 0px;
+                border: none;
+                font-size :16px;
+                outline: none;
+            }
+            textarea{
+                width: 80vw;
+                padding: 15px;
+                background-color: rgb(254, 217, 217);
+                border-radius: 8px;
+                margin: 10px 0px;
+                border: none;
+                font-size :16px;
+                outline: none;
+                resize: none;
+            }
+            .btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .button{
+                    width: 180px;
+                    height: 40px;
+                    margin-bottom: 60px;
+                    margin-top: 10px;
+                    color: white;
+                    background-color: rgb(39, 39, 124);
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: all 0.5s ease-in-out;
+                    &:hover{
+                        box-shadow: 0px 0px 15px rgb(10, 10, 174);
+                    }
+                }
+            }
+        }
+        img{
+            width: 40px;
+        }
+    }
+    .connectwithme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-size: 44px;
+            margin: 0px;
+            color: rgb(92, 91, 91);
+            text-transform: uppercase;
+            font-weight: normal;
+            span{
+                color: rgb(181, 37, 37);
+            }
+        }
+        .social{
+
+            .icon{
+                margin: 0px 20px;
+                margin-bottom: 40px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                padding: 5px;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+
+                &:hover{
+                    box-shadow: 0px 0px 25px rgb(255, 0, 0);
+                    color: white;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}

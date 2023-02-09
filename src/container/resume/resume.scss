@@ -1,0 +1,30 @@
+.resume{
+    .container{
+        // width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(243, 226, 226);
+        .download{
+            width: 230px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 12px;
+            background-color: rgb(39, 39, 124);
+            margin: 40px 0px;
+            color: white;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                box-shadow: 0px 0px 15px rgb(26, 26, 92);
+            }
+        }
+        .resumeimg{
+            width: 70vw;
+            object-fit: cover;
+            // margin: 40px 0px;
+        }
+    }
+}

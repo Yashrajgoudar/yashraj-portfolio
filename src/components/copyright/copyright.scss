@@ -1,0 +1,32 @@
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 197, 197);
+    color: black;
+    font-size: 18px;
+    padding: 20px 0px;
+    .dec{
+        p{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .social{
+        .icon{
+            margin: 0px 15px;
+        }
+    }
+    .icon{
+        width: 20px;
+        margin: 0px 5px;
+        cursor: pointer;
+    }
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+        padding-top: 10px;
+        div{
+            margin: 5px 0px;
+        }
+    }
+}
